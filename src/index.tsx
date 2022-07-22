@@ -1,6 +1,5 @@
 import { createRoot } from "react-dom/client";
-// import GuestList from "./state/GuestList";
-import UserSearch from "./state/UserSearch";
+import EventComponent from "./events/EventComponent";
 
 const container = document.querySelector("#root");
 const root = createRoot(container!);
@@ -8,7 +7,7 @@ const root = createRoot(container!);
 const App = () => {
   return (
     <div>
-      <UserSearch />
+      <EventComponent />
     </div>
   );
 };

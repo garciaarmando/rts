@@ -8,6 +8,7 @@ const users = [
 
 const UserSearch: React.FC = () => {
   const [name, setName] = useState("");
+
   //We're saying to TS that the value user could be and object with name and age props or undefined, both at the same time
   const [user, setUser] = useState<{ name: string; age: number } | undefined>();
 
